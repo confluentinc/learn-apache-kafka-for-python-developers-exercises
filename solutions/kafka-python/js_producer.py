@@ -37,7 +37,7 @@ schema_str = """{
     }
   }"""
 
-  def temp_to_dict(temp, ctx):
+def temp_to_dict(temp, ctx):
     return {"city":temp.city, 
             "reading":temp.reading,
             "unit":temp.unit, 
